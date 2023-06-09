@@ -1,0 +1,53 @@
+<!--Juan Jose Sanchez
+Valentina Salamanca-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Fashion & Fantasy</title>
+    <link rel="icon" href="./img/vestuario.png">
+    <link rel="stylesheet" href="src/css/Style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <script src="src/js/main.js"></script>
+</head>
+
+<body onload="start()">
+    <div id="blocker">
+        <div id="instructions">
+            <img src="./src/img/vestuario.png" width="200" height="250">
+            <br><br>
+
+            <h1><a href="./src/Pagina_Computacion/index.html" onclick="go2Play()" style="font-size: 36px"><i class="fas fa-play"></i></a></h1>
+            <br>
+
+            <h1>¡BIENVENIDOS!</h1>
+            <br><br>
+
+            <h2>A la casa "Fashion & Fantasy", en donde la magía y el color dan un toque único a tu estilo.</h2>
+            <br>
+
+            <h2>Brilla con tu propia moda y haz de ella tu marca.</h2>
+        </div>
+    </div>
+
+    <canvas width="800" height="600"></canvas>
+
+    <audio id="backgroundAudio" autoplay loop>
+        <source src="src/songs/musica2.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <style>
+        body {
+            background-image: url("src/img/escenario.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    </style>
+</body>
+
+</html>

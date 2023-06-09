@@ -1,0 +1,88 @@
+/* Estilos para el bloque principal */
+#blocker {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  max-width: 600px;
+  height: auto;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.8);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  z-index: 9999;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#blocker #instructions {
+  text-align: center;
+  color: #000; /* Color del texto */
+}
+
+/* Estilos para el bloque oculto */
+#lost {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#lost #instructions {
+  text-align: center;
+  color: #000; /* Color del texto */
+}
+
+/* Estilos para el ícono de reproducción */
+#instructions a {
+  color: #000000; /* Color del ícono */
+  text-decoration: none;
+}
+
+#instructions a:hover {
+  color: #9b0074;
+}
+
+/* Estilos para los párrafos de texto */
+#instructions h1,
+#instructions h2 {
+  font-size: 24px;
+  line-height: 1.5;
+  margin: 10px 0; /* Margen superior e inferior */
+}
+
+/* Estilos para el canvas */
+canvas {
+  display: block;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+}
+
+img {
+  border-radius: 10%;
+}
+
+/* Estilos para el reproductor de audio */
+#audio-controls {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Estilos para el ícono de reproducción */
+#audio-controls i {
+  font-size: 24px;
+  color: #000;
+  cursor: pointer;
+}
+
+#audio-controls i:hover {
+  color: #ff0000;
+}

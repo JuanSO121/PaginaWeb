@@ -1,0 +1,141 @@
+body {
+	margin: 0;
+	background-image: url("./img/escenario.jpg");
+	color: #fff;
+	font-family: Monospace;
+	font-size: 13px;
+	line-height: 24px;
+}
+
+a {
+	color: #ff0;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+button {
+	cursor: pointer;
+	text-transform: uppercase;
+}
+
+canvas {
+	display: block;
+}
+
+#info {
+	position: absolute;
+	top: 0px;
+	width: 100%;
+	padding: 10px;
+	box-sizing: border-box;
+	text-align: center;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	pointer-events: none;
+	z-index: 1; /* TODO Solve this in HTML */
+}
+
+a, button, input, select {
+	pointer-events: auto;
+}
+
+.dg.ac {
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	z-index: 2 !important; /* TODO Solve this in HTML */
+}
+
+
+#blocker{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    /*background-color: rgba(0,0,0); 0.80*/
+    background-image: url("./img/escenario.jpg");
+    background-size: cover;
+    background-position: center;
+    z-index: 9;
+}
+
+#instructions {
+    width: 100%;
+	height: 100%;
+
+	display: -webkit-box;
+	display: -moz-box;
+	display: box;
+
+	-webkit-box-orient: horizontal;
+	-moz-box-orient: horizontal;
+	box-orient: horizontal;
+
+	-webkit-box-pack: center;
+	-moz-box-pack: center;
+	box-pack: center;
+
+	-webkit-box-align: center;
+	-moz-box-align: center;
+	box-align: center;
+
+	color: #ffffff;
+	text-align: center;
+
+	cursor: pointer;
+}
+
+.footerStyle{
+    position: fixed;
+    bottom: 0;
+    background-color: white;
+    width: 100%;
+    padding: 8px;
+    text-align: center;
+}
+
+.column {
+    float: left;
+    width: 49%;
+}
+  
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.logo{
+    height: 64px;
+    margin-top: -8px;
+    margin-bottom: -16px;
+}
+.vertical { 
+    border-left: 3px solid orange;
+    height: 38px;
+    position: absolute;
+    left: 50%;
+} 
+
+.gui{
+    position: absolute;
+    color: white;
+    display: flex;
+    flex-flow: column;
+    right: 0%;
+    margin: 20px;
+
+    border-style: solid;
+    padding: 10px;
+    background-color: darkorange;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
