@@ -1,4 +1,4 @@
 Disculpe profesora, como menciono mi compañera valentina, tubimos problemas intentando subir el proyecto 
-debido a un archivo en especifico src/Pagina_Computacion/Build/Computacion_FInal.data" pesa mass de 100mb
-por ello para que funcione hay que descomprimir el archivo 
-src/Pagina_Computacion/Build/Computacion_FInal.zip y reempazar el que ya estaba
+debido a que nuestro proyecto pesaba mas de 100mb
+por ello para que funcione tubimos que eliminar varias cosas del proyecto
+hasta que quedo del peso necesario
